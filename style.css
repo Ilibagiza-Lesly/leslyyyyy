@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f2;
+    color: #3e3a39;
+}
+
+a {
+    text-decoration: none;
+    color: #3e3a39;
+}
+
+header {
+    background-color: #d1c7bc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #6b4f4f;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #4b3b38;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Layouts */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e5ded6;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about, .services, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about img, .projects img, .services img {
+    flex: 1 1 45%;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projects div, .services div {
+    background-color: #d9cfc5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #b1a49d;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #6b4f4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4b3b38;
+}
+
+footer {
+    background-color: #d1c7bc;
+    text-align: center;
+    padding: 20px 0;
+}
