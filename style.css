@@ -3,17 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #6e3b07;
-    color: #faf6f4;
+    background-color: #c9e6fd;
+    color: #252529;
 }
 
 a {
     text-decoration: none;
-    color: #faf7f6;
+    color: #0d0b25;
 }
 
 header {
-    background-color: #582f04;
+    background-color: #bef0f7;
     padding: 20px 0;
     text-align: center;
 }
@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #180000;
+    color: #0e0b1b;
 }
 
 section {
@@ -34,7 +34,7 @@ section {
 }
 
 h1, h2 {
-    color: #f8f0ee;
+    color: #060820;
 }
 
 img {
@@ -46,7 +46,7 @@ img {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-color: #5f3a0f;
+    background-color: #a9d8db;
 }
 
 .hero h1 {
@@ -74,7 +74,7 @@ img {
 }
 
 .projects div, .services div {
-    background-color: #5e3710;
+    background-color: #a7cef3;
     padding: 20px;
     border-radius: 10px;
 }
@@ -87,25 +87,25 @@ form {
 
 input, textarea {
     padding: 10px;
-    border: 1px solid #fae8dd;
+    border: 1px solid #e3f7fd;
     border-radius: 5px;
 }
 
 button {
     padding: 10px;
-    background-color: #663333;
-    color: rgb(252, 249, 249);
+    background-color: #c0d9fc;
+    color: rgb(36, 37, 48);
     border: none;
     cursor: pointer;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #4b3b38;
+    background-color: #ace4fa;
 }
 
 footer {
-    background-color: #72400b;
+    background-color: #badaf8;
     text-align: center;
     padding: 20px 0;
 }
